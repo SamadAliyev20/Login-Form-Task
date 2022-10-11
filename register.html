@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="background: #2C3338;">
+    <form style="text-align:center;background-color:#444A51;width: 25%;margin: 16rem auto; padding: 17px; border-radius: 5px;">
+        <h2 style="color: hwb(0 96% 4%);font: size 25px;">Create New Account</h2>
+        <input required autofocus type ="text" placeholder="Name" style="height: 35px;padding-left: 10px;border-radius: 0.25rem;width: 92%; outline: none; border: 1px solid rgba(165, 154, 154, 0.454);font-size: 20px;margin-bottom: 17px;">
+        <input required autofocus type ="text" placeholder="SurName" style="height: 35px;padding-left: 10px;border-radius: 0.25rem;width: 92%; outline: none; border: 1px solid rgba(165, 154, 154, 0.454);font-size: 20px;margin-bottom: 17px;">
+        <label style="color:#fff; margin-right: 0.25rem; font-size:large;" for="birthday">Birthday:
+            <input style="height: 30px;border-radius: 0.25rem;padding-left: 10px;font-size: 15px;width: 75%;" type="date" id="birthday" name="birthday">
+        </label>
+     <legend style="color:#fff;font-size: 25px;margin-top: 5px;">Choose your gender:</legend>
+        <label style="color: #fff;font-size: 22px;" for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label style="color: #fff;font-size: 22px;" for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <input required autofocus type ="text" placeholder="Email or Phone Number" style="height: 35px;padding-left: 10px;border-radius: 0.25rem;width: 92%; outline: none; border: 1px solid rgba(165, 154, 154, 0.454);font-size: 20px;margin-top: 12px;">
+        
+        <input required minlength="6" maxlength="10" type ="password" placeholder="Password" style="height: 35px;padding-left: 10px;border-radius: 0.25rem;width: 92%; outline: none; border: 1px solid rgba(165, 154, 154, 0.454);font-size: 20px;margin-top: 17px;">
+        <button style="height:35px;margin-bottom: 15px ;border-radius: 0.25rem;background-color: #EA4C88;border: #EA4C88;color: #fff;width: 94%;font-size: 23px;margin-top: 10px;font-weight: 700;margin-top: 17px;cursor: pointer;">Create Account</button>
+        <p style="text-decoration:none;color: rgba(255, 255, 255, 0.755);padding-right: 17rem;font-size: 18px;margin-top: 3px;">
+            <input type="checkbox" id="agree-terms" checked>
+            <label for="remember-me">I agree to the terms</label>
+        </p>
+        <hr style="width:96%;text-align:left;margin-left:6px">
+        <a style="text-decoration:none;color: rgba(255, 255, 255, 0.755);font-size: 18px;" href="index.html">Return Main Page</a>
+    </form>
+
+</body>
+</html>
